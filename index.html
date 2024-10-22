@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palindrome Checker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="theme-toggle">
+    <label for="theme-switch">Dark Mode</label>
+    <input type="checkbox" id="theme-switch">
+  </div>
+
+  <div class="container">
+    <h1>Palindrome Checker</h1>
+    
+     <!-- GitHub username as a clickable link in the header -->
+     <div id="github-link">
+        <p>Created by <a href="https://github.com/i-Glitchx" target="_blank">I-Glitchx</a></p>
+      </div>
+    
+    <!-- Input field for text -->
+    <input type="text" id="text-input" placeholder="Enter text here">
+
+    <!-- Button to check for palindrome -->
+    <button id="check-btn">Check Palindrome</button>
+
+    <!-- Display character count -->
+    <p id="char-count">Character Count: 0</p>
+
+    <!-- Result area for live validation -->
+    <p id="result"></p>
+
+    <!-- Share button -->
+    <button id="share-btn" style="display:none;">Share on X</button>
+
+    <!-- Display History -->
+    <div id="history-container">
+      <h2>History</h2>
+      <ul id="history-list"></ul>
+      <button id="clear-history-btn">Clear History</button>
+    </div>
+
+    <!-- Palindrome Facts/Trivia Section -->
+    <div id="facts-container">
+      <h2>Palindrome Facts/Trivia</h2>
+      <p id="fact"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
